@@ -1,0 +1,25 @@
+.typesonly{
+    width:6.9rem;
+    height:1.38rem;
+    border:.01rem solid #999;
+    margin-top:.2rem;
+    display: flex;
+    padding:.28rem .2rem;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+.typesonly>.types{
+    flex:1;
+    text-align:right;
+}
+.typesonly>.types>.icon{
+   font-size:.4rem;
+   margin-left:.5rem;
+}
+.typesonly>.names{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}

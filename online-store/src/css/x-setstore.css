@@ -1,0 +1,122 @@
+.store{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+
+    /* overflow: hidden; */
+}
+.store>section{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background:#fFF;
+}
+.wrapper{
+    box-sizing: border-box;
+    /* flex:1; */
+}
+.wrapper p{
+    padding:.2rem 0 0 .3rem;
+}
+
+.effect{
+    background: #F8F8F8;
+    width:100%;
+    height:.2rem;
+}
+.info{
+    height:1rem;
+    width:7.2rem;
+    margin-left:.3rem;
+    border-bottom:.01rem solid #ccc;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info span{
+    width:1.2rem;
+    text-align:center;
+    padding-right:.6rem;
+}
+.info input{
+    flex:1;
+    border:none;
+    line-height:.8rem;
+}
+.info .picker{
+    width:1.7rem;
+    height:.54rem;
+    border-radius: .26rem;
+    background:#F8F8F8 ;
+    border:none;
+    text-align:center;
+  
+}
+.weekdate{
+    width:100%;
+    height:2.48rem;
+    display:flex;
+    flex-direction: column;
+}
+.weekCheck{
+    flex:1;
+    display:flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left:.3rem;
+    margin-top:.4rem;
+    border-bottom:.01rem solid #ccc;
+}
+.weekCheck .weekopts{
+    height: .4rem;
+    display:flex;
+    align-items: center;
+}
+.weekCheck .weekopts input{
+    width:.4rem;
+    height:.4rem;
+    background:#fff;
+}
+.weekCheck .weekopts span{
+    color:#999;
+    margin-left:.08rem;
+    margin-right:.2rem;
+}
+.weekCheck .weekopts input.active{
+    background:#5ADAD0;
+}
+button.picker{
+    text-align:center;
+}
+.bannertab .bantabs{
+   display: flex; 
+   justify-content: space-around;
+    height:4rem; 
+    padding-top:.3rem;
+}
+.bannertab .bantabs .tabopt{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bannertab .bantabs .tabopt img.active{
+    border:.02rem solid orange;
+}
+.bannertab .bantabs .tabopt input{
+    width:.3rem;
+    height:.3rem;
+    border-radius: 50%;
+    margin-top:.4rem;
+}
+footer button{
+    width:100%;
+    background:orange;
+    color:#fff;
+    border:none;
+    font-size: .32rem;
+    height:100%;
+}

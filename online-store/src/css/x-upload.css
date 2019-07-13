@@ -1,0 +1,22 @@
+.uploading{
+    height:2.1rem;
+    width:2.1rem;
+    margin:.2rem 0 0 .3rem;
+    border:.01rem dotted #ddd;
+}
+
+.load{
+    color:#999;
+    display:flex;
+    margin-top:.2rem;
+    border:.01rem dotted #ddd;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.uploadings{
+    width:100%;
+    height:3rem;
+    margin-top:.2rem;
+    }

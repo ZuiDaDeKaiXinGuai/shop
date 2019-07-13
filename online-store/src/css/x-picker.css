@@ -1,0 +1,18 @@
+.pickers{
+    width:100%;
+    max-height: 4.3rem;
+    overflow-y: auto;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:0 .2rem;
+    box-sizing: border-box;
+}
+.pickers li{
+    list-style: none;
+    height:.8rem;
+    border-bottom:.01rem solid #ccc;
+    line-height:.8rem;
+    background:#fff;
+    text-align:center;
+}

@@ -1,0 +1,34 @@
+.productlist{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+.productlist>section{
+    flex:1;
+    overflow-y: auto;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productlist>section .navsearch{
+    width:100%;
+    height:1.1rem;
+    border-bottom:.01rem solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.navsearch>.input{
+    width:6.9rem;
+    height:.68rem;
+    background:#eee;
+    border-radius: .48rem;
+    padding:.15rem .2rem;
+    box-sizing: border-box;
+}
+.navsearch>.input>input{
+    background:none;
+    color:#999;
+}

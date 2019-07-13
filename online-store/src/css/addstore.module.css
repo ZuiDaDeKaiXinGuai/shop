@@ -1,0 +1,48 @@
+.app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.app>section{
+    width: 100%;
+    flex:1;
+    overflow-y: auto;
+    padding:0 .2rem;
+    box-sizing: border-box;
+}
+
+.mation{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+ 
+    border-bottom: 0.01rem solid #ccc;
+}
+.mation>span{
+    margin-right: 0.5rem;
+    /* width: 1.2rem; */
+
+
+}
+.mation>span>b{
+    opacity: 0;
+}
+
+.mation>input{
+    flex: 1;
+    border: none;
+    width: 100%;
+    height: 90%;
+    background: #F8F8F8;
+}
+
+.app>section>.btns{
+    width: 100%;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}

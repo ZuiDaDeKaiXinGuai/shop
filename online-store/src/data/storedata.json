@@ -1,0 +1,30 @@
+[
+    {
+        "text":"接单"
+    },
+    {
+        "text":"扫码"
+    },
+    {
+        "text":"退款"
+    },
+    {
+        "text":"店铺设置",
+        "path":"/setstore"
+    },
+    {
+        "text":"分类管理",
+        "path":"/typeslist"
+    },
+    {
+        "text":"添加商品",
+        "path":"/addshop"
+    },
+    {
+        "text":"商品列表",
+        "path":"/productlist"
+    },
+    {
+        "text":"收益报表"
+    }
+]

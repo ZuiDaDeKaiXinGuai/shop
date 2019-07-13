@@ -1,0 +1,18 @@
+.checkbox{
+    position:relative;
+}
+.checked:after{
+    content:"";
+    position:absolute;
+    border-left:.04rem solid #fff;
+    border-bottom:.04rem solid #fff;
+    width:.14rem;
+    height:.06rem;
+    left:.08rem;
+    top:.08rem;
+    transform: rotate(-45deg);
+    z-index:99;
+}
+.checked{
+    background:#5ADAD0;
+}

@@ -1,0 +1,104 @@
+header{
+    width:100%;
+    height:.88rem;
+    background:#333333;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left:.15rem;
+    font-size:0.16rem
+}
+header>.iconfont{
+    font-size: 0.17rem;
+}
+header>span{
+    box-sizing: border-box;
+    margin-left:.03rem;
+}
+
+section{
+    flex:1;
+    overflow-y: auto;
+}
+.store{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   dl {
+    display:flex;
+    margin:.2rem;
+   dt{
+        margin-right:.2rem;
+} 
+}
+}
+.tabbanner{
+    display:flex;
+    width:100%;
+    height:1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner>img{
+width:100%;
+height:3rem;
+    }
+header{
+    height:.88rem
+}
+.oneGood {
+    width: 100%;
+    height: 1.8rem;
+    // background: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+
+
+    img {
+        width: 1rem;
+        height: 1rem;
+        padding: 0 .15rem;
+    }
+
+    p {
+        width: 3.5rem;
+        height: 1.3rem;
+        // flex:1;
+        display: flex;
+        flex-direction: column;
+        font-size: .16rem;
+        justify-content: space-around;
+    }
+
+    p span:last-child {
+        margin-top: .1rem;
+        font-size: .16rem;
+    }
+
+    p span:first-child {
+        width: 100%;
+        height: .5rem;
+        line-height:.5rem;
+        font-size: .14rem;
+        overflow: hidden;
+
+}
+
+    p span:nth-child(2) {
+        color: #ccc;
+        font-size: .12rem;
+    }
+    button{
+        width:0.4rem;
+        height:.4rem;
+        background:skyblue;
+        border:none;
+        color:#fff;
+        font-size: .3rem;
+    }
+}
